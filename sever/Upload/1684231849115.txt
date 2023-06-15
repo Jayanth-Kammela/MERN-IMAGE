@@ -1,0 +1,40 @@
+// var a=12,b=7
+// let add=(a>b)?a:b;
+// while(true){
+//     if(add%a==0 && add%b==0){
+//         console.log(add);   
+//         break;
+//     }
+//     add++;
+// }
+
+// let xd=3;
+// for(let i=1;i<=10;i++){
+// console.log(i*xd)
+// }
+
+// let xd="Web";
+// let xa=xd.split('');
+// let az=xa.reverse();
+// let ltt=az.join('');
+// if(xd!=
+// =ltt){
+//     console.log("Palindrome")
+// }
+
+
+
+var num=42;
+var xd=0;
+for(let i=0;i<num;i++){
+    if(num%2==0){
+        xd++;
+        break;
+    }
+}
+    if(xd==0){
+        console.log('prime')
+    }
+    else{
+        console.log('not')
+    }
